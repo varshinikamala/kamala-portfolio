@@ -64,17 +64,18 @@ function Contact() {
     }
 
     setLoading(true);
-
+    const api_url =
+      window.location.hostname === "localhost"
+        ? "http://localhost/kamala-portfolio/backend/api/contact.php"
+        : "https://your-live-backend-domain.com/api/contact.php";
     try {
-      const response = await fetch(
-        "http://localhost/kamala-portfolio/backend/api/contact.php",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
+      const response = await fetch(api_url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      }
       );
 
       const data = await response.json();
