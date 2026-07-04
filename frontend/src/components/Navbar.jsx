@@ -48,7 +48,7 @@ function Navbar() {
 
           {/* Resume Button */}
           <a
-            href="/resume.pdf"
+            href="/Varshini_Kamala_Resume.pdf"
             className="hidden md:block bg-violet-600 hover:bg-violet-700 transition px-5 py-2 rounded-full font-medium"
           >
             Resume

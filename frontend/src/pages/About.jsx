@@ -79,9 +79,13 @@ function About() {
                         users and businesses.
                     </p>
 
-                    <button className="mt-10 bg-violet-600 hover:bg-violet-700 transition-all duration-300 px-8 py-4 rounded-full font-semibold shadow-lg hover:scale-105">
+                    <a
+                        href="/Varshini_Kamala_Resume.pdf"
+                        download
+                        className="inline-flex items-center bg-violet-600 hover:bg-violet-700 px-8 py-4 rounded-full font-semibold transition"
+                    >
                         Download Resume
-                    </button>
+                    </a>
                 </motion.div>
 
                 {/* Statistics */}
