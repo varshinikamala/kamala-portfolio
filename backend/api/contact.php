@@ -1,27 +1,10 @@
 <?php
 
-// =========================
-// CORS CONFIGURATION
-// =========================
-$allowed_origins = [
-    "http://localhost:5173",
-    "https://kamala-portfolio-five.vercel.app"
-];
-
-if (isset($_SERVER['HTTP_ORIGIN']) && in_array($_SERVER['HTTP_ORIGIN'], $allowed_origins)) {
-    header("Access-Control-Allow-Origin: " . $_SERVER['HTTP_ORIGIN']);
-    header("Vary: Origin");
-}
-
-header("Access-Control-Allow-Headers: Content-Type, Authorization");
-header("Access-Control-Allow-Methods: POST, OPTIONS");
+header("Access-Control-Allow-Origin: https://kamala-portfolio-five.vercel.app");
+header("Access-Control-Allow-Headers: Content-Type");
+header("Access-Control-Allow-Methods: POST");
 header("Content-Type: application/json");
 
-// Handle preflight request (IMPORTANT for React)
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-    http_response_code(200);
-    exit;
-}
 require_once "../vendor/autoload.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
