@@ -67,7 +67,7 @@ function Contact() {
     const api_url =
       window.location.hostname === "localhost"
         ? "http://localhost/kamala-portfolio/backend/api/contact.php"
-        : "https://https://kamala-portfolio-five.vercel.app/api/contact.php";
+        : "https://kamala-portfolio-five.vercel.app/api/contact.php";
     try {
       const response = await fetch(api_url, {
         method: "POST",
