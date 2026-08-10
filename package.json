@@ -1,0 +1,14 @@
+{
+  "name": "kamala-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Full Stack Developer Portfolio (React + Vite is inside ./frontend)",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "lint": "npm --prefix frontend run lint",
+    "install:all": "npm install --prefix frontend"
+  }
+}
