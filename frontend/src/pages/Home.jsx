@@ -22,7 +22,7 @@ export default function Home() {
                         Hi, I'm
                         <br />
                         <span className="text-violet-500">
-                            Varshini Kamala
+                            Kamala
                         </span>
                     </h1>
 
@@ -36,13 +36,13 @@ export default function Home() {
 
                     <div className="mt-10 flex gap-5">
 
-                        <button className="bg-violet-600 px-7 py-3 rounded-full hover:bg-violet-700 duration-300">
+                        <a href="/projects" className="bg-violet-600 px-7 py-3 rounded-full hover:bg-violet-700 duration-300">
                             View Projects
-                        </button>
+                        </a>
 
-                        <button className="border border-violet-600 px-7 py-3 rounded-full hover:bg-violet-600 duration-300">
+                        <a href="/contact" className="border border-violet-600 px-7 py-3 rounded-full hover:bg-violet-600 duration-300">
                             Contact Me
-                        </button>
+                        </a>
 
                     </div>
 
@@ -65,7 +65,7 @@ export default function Home() {
                     <div className="relative flex justify-center">
                         <div className="w-80 h-80 rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 p-2 shadow-2xl">
                             <img
-                            src="/profile.png"
+                            src="/profile_kamala.png"
                             alt="Varshini Kamala"
                             className="w-full h-full rounded-full object-cover bg-[#050816]"
                             />

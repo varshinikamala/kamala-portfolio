@@ -23,8 +23,7 @@ function Navbar() {
             to="/"
             className="text-2xl font-extrabold tracking-wide"
           >
-            <span className="text-white">Varshini</span>
-            <span className="text-violet-500">.</span>
+            <span className="text-white">Kamala</span>
           </NavLink>
 
           {/* Desktop Menu */}
@@ -87,7 +86,7 @@ function Navbar() {
             ))}
 
             <a
-              href="/resume.pdf"
+              href="/Varshini_Kamala_Resume.pdf"
               className="mx-6 mt-4 bg-violet-600 text-center py-3 rounded-full hover:bg-violet-700 transition"
             >
               Download Resume

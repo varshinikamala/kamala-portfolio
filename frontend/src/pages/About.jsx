@@ -57,7 +57,7 @@ function About() {
                     <p className="text-gray-400 mt-8 leading-8 text-lg">
                         Hello! I'm{" "}
                         <span className="text-white font-semibold">
-                            Varshini Kamala
+                            Kamala
                         </span>
                         , a passionate Full Stack Developer dedicated to creating
                         responsive, high-performance, and user-centric web applications.
@@ -67,7 +67,7 @@ function About() {
 
                     <p className="text-gray-400 mt-6 leading-8 text-lg">
                         My expertise includes React.js, JavaScript, PHP, MySQL, HTML5,
-                        CSS3, Bootstrap, Tailwind CSS, and jQuery. From designing intuitive
+                        CSS3, Bootstrap, Tailwind CSS, Filament, Laravel, Yii2 and jQuery. From designing intuitive
                         user interfaces to building robust backend systems, I strive to
                         deliver applications that are scalable, maintainable, and efficient.
                     </p>
@@ -82,7 +82,7 @@ function About() {
                     <a
                         href="/Varshini_Kamala_Resume.pdf"
                         download
-                        className="inline-flex items-center bg-violet-600 hover:bg-violet-700 px-8 py-4 rounded-full font-semibold transition"
+                        className="inline-flex items-center mt-4 bg-violet-600 hover:bg-violet-700 px-8 py-4 rounded-full font-semibold transition"
                     >
                         Download Resume
                     </a>

@@ -12,6 +12,9 @@ const skills = {
   backend: [
     "PHP",
     "MySQL",
+    "Laravel",
+    "Yii2",
+    "Filament",
     "REST APIs",
     "JSON",
     "AJAX",
@@ -23,6 +26,14 @@ const skills = {
     "VS Code",
     "Postman",
     "XAMPP",
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Cursor",
+    "Cline",
+    "GitHub Copilot",
+    "DeepSeek",
+    "Perplexity AI",
   ],
 
   other: [

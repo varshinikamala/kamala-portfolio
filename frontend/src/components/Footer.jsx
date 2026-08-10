@@ -4,7 +4,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6 text-center">
 
         <h2 className="text-xl font-bold text-white">
-          Varshini<span className="text-violet-500">.</span>
+          Kamala<span className="text-violet-500">.</span>
         </h2>
 
         <p className="text-gray-400 mt-3">
@@ -12,7 +12,7 @@ function Footer() {
         </p>
 
         <p className="text-gray-500 mt-6 text-sm">
-          © 2026 Varshini Kamala. All Rights Reserved.
+          © 2026 Kamala. All Rights Reserved.
         </p>
 
       </div>

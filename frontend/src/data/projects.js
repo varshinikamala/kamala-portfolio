@@ -1,70 +1,138 @@
-import ecommerce from "../assets/images/ecommerce.jpg";
-import church from "../assets/images/church.jpg";
-import signLanguage from "../assets/images/sign-language.jpg";
-import aiShowcase from "../assets/images/ai-showcase.jpg";
+import ecommerce from "../assets/images/fario-ecommerce.png";
+import campus from "../assets/images/fario-campus.png";
+import fariocms from "../assets/images/farioCMS.png";
+import jeyam from "../assets/images/Jeyam-Designers.png";
+import lms from "../assets/images/Login-HRMbase.png";
+import portfolio from "../assets/images/kamala-portfolio.png";
+import interview from "../assets/images/Interview-Questions.png";
+
 
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    image: ecommerce,
+    title: "FarioCMS - Corporate Content Management System",
+    image: fariocms,
     description:
-      "A modern e-commerce application with secure checkout, PayPal & UPI payment integration, product management, and responsive UI.",
+      "Developed a dynamic Corporate CMS that enables businesses to manage website content through an intuitive admin panel. Includes page management, sliders, banners, news, events, galleries, testimonials, file manager, and global settings.",
     technologies: [
-      "React.js",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Bootstrap 5",
       "PHP",
       "MySQL",
-      "Tailwind CSS",
-      "REST API",
     ],
-    github: "https://github.com/yourusername/ecommerce",
-    demo: "#",
+    demo: "https://demo.envisionalive.com/farioCMS",
   },
 
   {
     id: 2,
-    title: "Church Management System",
-    image: church,
+    title: "FarioCampus - Educational Management System",
+    image: campus,
     description:
-      "A CMS-based church website with blogs, parish information, events, galleries, SEO-friendly pages, and a custom admin panel.",
+      "Designed and developed a Campus CMS for schools and colleges to manage departments, courses, faculty, exam results, downloads, events, galleries, and academic information through a powerful admin dashboard.",
     technologies: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Bootstrap 5",
       "PHP",
       "MySQL",
-      "JavaScript",
-      "Bootstrap",
     ],
-    github: "https://github.com/yourusername/church-management",
-    demo: "#",
+    demo: "https://demo.envisionalive.com/fario-campus",
   },
 
   {
     id: 3,
-    title: "Sign Language Recognition",
-    image: signLanguage,
+    title: "FarioCommerce - E-Commerce CMS",
+    image: ecommerce,
     description:
-      "Real-time sign language recognition using TensorFlow.js and webcam input to convert ASL gestures into readable text.",
+      "Built a complete E-Commerce CMS with product management, categories, shopping cart, checkout, payment gateway integration, banners, and an easy-to-use admin panel for managing online stores.",
     technologies: [
-      "React.js",
-      "TensorFlow.js",
+      "HTML5",
+      "CSS3",
       "JavaScript",
+      "Bootstrap 5",
+      "PHP",
+      "MySQL",
     ],
-    github: "https://github.com/yourusername/sign-language",
-    demo: "#",
+    demo: "https://demo.envisionalive.com/fario-ecommerce",
   },
 
   {
     id: 4,
-    title: "AI Technology Showcase",
-    image: aiShowcase,
+    title: "Personal Portfolio Website",
+    image: portfolio,
     description:
-      "A modern responsive website highlighting Artificial Intelligence and Robotics concepts using interactive UI and animations.",
+      "Designed and developed a modern personal portfolio website showcasing my projects, technical skills, and experience. Built with smooth animations, responsive layouts, and an integrated contact form using PHPMailer.",
     technologies: [
       "React.js",
       "Tailwind CSS",
+      "Framer Motion",
+      "JavaScript",
+      "PHP",
+      "PHPMailer",
+    ],
+    github: "https://github.com/varshinikamala/kamala-portfolio",
+    demo: "https://kamala-portfolio-five.vercel.app/",
+  },
+
+  {
+    id: 5,
+    title: "Jeyam designers",
+    image: jeyam, 
+    description:
+      "Developed a dynamic CMS-powered website for a construction company, enabling administrators to manage and update website content through a centralized admin panel. All website content is dynamically rendered from the CMS, making it easy to manage company information, services, projects, and other business content without modifying the code.",
+    technologies: [
+      "PHP",
+      "MySQL",
+      "HTML5",
+      "JavaScript",
+      "Bootstrap 5",
+    ],
+
+    github: "",
+    demo: "https://demo.envisionalive.com/jeyam-cms/",
+  },
+
+  {
+    id: 6,
+    title: "Candidate Assessment & Recruitment Platform",
+    image: interview,
+    description:
+      "Designed and developed an online Candidate Assessment & Recruitment Platform using React.js, PHP, and MySQL. The application provides multiple assessment rounds, coding challenges, automated scoring, and a secure admin dashboard to manage candidates, questions, and performance reports.",
+
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "PHP",
+      "MySQL",
       "JavaScript",
     ],
-    github: "https://github.com/yourusername/ai-showcase",
-    demo: "#",
+
+    github: "",
+    demo: "https://interview-questions.infinityfree.io/",
+  },
+
+  {
+    id: 7,
+    title: "Leave & Task Reporting System",
+    image: lms, // Add an image named leave-task.jpg
+    description:
+      "Developed a Leave & Task Reporting System that streamlines employee leave requests, task assignment, task tracking, and daily reporting through a secure role-based admin dashboard. The system improves team collaboration and workflow management.",
+
+    technologies: [
+      "PHP",
+      "Filament",
+      "MySQL",
+      "HTML5",
+      "Tailwind CSS",
+      "JavaScript",
+      "Bootstrap 5",
+    ],
+
+    github: "",
+    demo: "https://infario.hrmbase.com/admin/login",
   },
 ];
 
