@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeLeft, fadeRight } from "../utils/animations";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -36,13 +37,19 @@ export default function Home() {
 
                     <div className="mt-10 flex gap-5">
 
-                        <a href="/projects" className="bg-violet-600 px-7 py-3 rounded-full hover:bg-violet-700 duration-300">
+                        <Link
+                            to="projects"
+                            className="bg-violet-600 px-7 py-3 rounded-full hover:bg-violet-700 duration-300"
+                        >
                             View Projects
-                        </a>
+                        </Link>
 
-                        <a href="/contact" className="border border-violet-600 px-7 py-3 rounded-full hover:bg-violet-600 duration-300">
+                        <Link
+                            to="contact"
+                            className="border border-violet-600 px-7 py-3 rounded-full hover:bg-violet-600 duration-300"
+                        >
                             Contact Me
-                        </a>
+                        </Link>
 
                     </div>
 
@@ -65,9 +72,9 @@ export default function Home() {
                     <div className="relative flex justify-center">
                         <div className="w-80 h-80 rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 p-2 shadow-2xl">
                             <img
-                            src="/profile_kamala.png"
-                            alt="Varshini Kamala"
-                            className="w-full h-full rounded-full object-cover bg-[#050816]"
+                                src="/profile_kamala.png"
+                                alt="Varshini Kamala"
+                                className="w-full h-full rounded-full object-cover bg-[#050816]"
                             />
                         </div>
                     </div>
